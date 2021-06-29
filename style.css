@@ -110,6 +110,39 @@ h1 {
 .call-out:nth-child(2) {background-color: #cdf1c3;}
 .call-out:nth-child(3) {background-color: #ccb9da;}
 
+/*  Bounce Animation */
+
+@keyframes fadeBounce {
+  0% {
+    opacity:0;
+    transform:translateY(-40%)
+      }
+  
+  40% {
+    opacity:1;
+    transform:translateY(0%)
+  }
+
+  50% {
+    opacity:0;
+    transform:translateY(20%)
+  }
+
+  60% {
+    opacity:0;
+    transform:translateY(40%)
+  }
+
+  40% {
+    opacity:1;
+    transform:translateY(0%)
+  }
+
+}
+
+/* End Bounce Animation */
+
+
 /* fourth example */
 .fixed-size-container {
   max-width: 1400px;
@@ -120,7 +153,15 @@ h1 {
   align-items: center;
   justify-content: space-around;
   flex-wrap:wrap;
+  transition-property:all;
+  transition-duration: 1s;
+  transform:translateY(10%)
 }
+
+.fixed-size-container:hover {
+  transform: translateY(-40%);
+}
+
 
 .fixed-size {
   width: 175px;
