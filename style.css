@@ -86,10 +86,11 @@ h1 {
 
 
 .call-outs-container {
+  animation-name: fadeBounce;
+  animation-duration: 1s;
   max-width: 1400px;
   margin: 40px auto 0 auto;
-  
-}
+ }
 
 .call-out {
   padding: 20px;
