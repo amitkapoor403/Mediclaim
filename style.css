@@ -24,7 +24,7 @@ body {
     margin: 0px auto 0 auto;
     padding: 50px;
     background-color: #060852;
-    text-align: centre;
+    text-align:centre;
     color: #fff;
     display: flex;
 }
