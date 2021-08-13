@@ -78,7 +78,7 @@ h1 {
 }
 
 @media screen and (max-width:767px) {
-    .hide-small {
+    div.hide-small {
         display: none;
         margin-right: 40px;
     }
@@ -95,7 +95,7 @@ h1 {
 }
 
 @media screen and (max-width:480px) {
-    .hide-small {
+    div.hide-small {
         display: none;
         margin-right: 40px;
         flex: none;
@@ -113,7 +113,7 @@ h1 {
 }
 
 @media screen and (max-width:360px) {
-    .hide-small {
+    div.hide-small {
         display: none;
         margin-right: 40px;
         flex: none;
