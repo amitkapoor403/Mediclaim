@@ -106,7 +106,7 @@ h1 {
     .call-outs-container {
         max-width: 300px;
         margin: 30px auto;
-        display: flex;
+        display:block;
     }
 }
 
@@ -123,7 +123,7 @@ h1 {
     .call-outs-container {
         max-width: 300px;
         margin: 30px auto;
-        display: flex;
+        display:block;
     }
 }
 
