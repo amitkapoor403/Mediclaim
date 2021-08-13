@@ -23,13 +23,13 @@ body {
     height: auto;
     margin: 0px auto 0 auto;
     padding: 50px;
-    background-color:#060852;
+    background-color: #060852;
     text-align: centre;
     color: #fff;
     display: flex;
 }
 
-h1 {#060852
+h1 {
     margin: auto;
     font-size: 200%;
 }
@@ -104,7 +104,7 @@ h1 {#060852
         margin-top: 30px;
     }
     .call-outs-container {
-        max-width: 600px;
+        max-width: 300px;
         margin: 30px auto;
         display: flex;
     }
@@ -121,7 +121,7 @@ h1 {#060852
         margin-top: 30px;
     }
     .call-outs-container {
-        max-width: 600px;
+        max-width: 300px;
         margin: 30px auto;
         display: flex;
     }
