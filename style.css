@@ -86,6 +86,12 @@ h1 {
         display: block;
         margin-top: 30px;
     }
+    
+    .call-outs-container {
+        max-width: 1250px;
+        margin: 20px auto;
+        display: flex;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -98,6 +104,12 @@ h1 {
         display: block;
         margin-top: 30px;
     }
+    
+    .call-outs-container {
+        max-width: 1250px;
+        margin: 20px auto;
+        display: flex;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -109,6 +121,12 @@ h1 {
     .column-layout {
         display: block;
         margin-top: 30px;
+    }
+    
+    .call-outs-container {
+        max-width: 1250px;
+        margin: 20px auto;
+        display: flex;
     }
 }
 
