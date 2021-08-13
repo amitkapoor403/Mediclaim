@@ -84,30 +84,28 @@ h1 {
     }
     .column-layout {
         display: block;
-        margin-top: 30px;
+        margin-top: 50px;
     }
-    
     .call-outs-container {
-        max-width: 1250px;
-        margin: 20px auto;
-        display: flex;
+        max-width: 600pxpx;
+        margin: 30px auto;
+        display: block;
     }
 }
 
 @media screen and (max-width:480px) {
     div.hide-small {
         display: none;
-        margin-right: 40px;
+        margin-right: 50px;
         flex: none;
     }
     .column-layout {
         display: block;
         margin-top: 30px;
     }
-    
     .call-outs-container {
-        max-width: 1250px;
-        margin: 20px auto;
+        max-width: 600px;
+        margin: 30px auto;
         display: flex;
     }
 }
@@ -122,10 +120,9 @@ h1 {
         display: block;
         margin-top: 30px;
     }
-    
     .call-outs-container {
-        max-width: 1250px;
-        margin: 20px auto;
+        max-width: 600px;
+        margin: 30px auto;
         display: flex;
     }
 }
