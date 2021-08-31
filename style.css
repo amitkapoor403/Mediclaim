@@ -34,7 +34,7 @@ h1 {
     font-size: 200%;
 }
 
-@media screen and (max-width:767px), (min-width:360px) {
+@media screen and (max-width:767px) (min-width:360px) {
     .button {
     width:50px;
     height:25px;
