@@ -41,10 +41,7 @@ h1 {
     display: block;
     }
     
-    h1 {
-    font-size:180%;
-    }
-}
+   }
 
 @media screen (min-width:368px)  {
     .button {
