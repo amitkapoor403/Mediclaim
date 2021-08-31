@@ -31,7 +31,7 @@ body {
 
 h1 {
     margin: auto;
-    font-size: 200%;
+    font-size:1750%;
 }
 
 @media screen and (min-width:360px) (max-width:767px)  {
