@@ -167,6 +167,7 @@ h1 {
     max-width: 1250px;
     margin: 20px auto;
     display: flex;
+    flex-grow: 1;
     flex-flow: row-reverse;
 }
 
@@ -175,18 +176,22 @@ h1 {
     margin: 40px 20px 40px 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    flex-flow: row;
 }
 
 .call-out:nth-child(1) {
     background-color: #c0dbe2;
+    width: 33%
 }
 
 .call-out:nth-child(2) {
     background-color: #cdf1c3;
+    width: 33%
 }
 
 .call-out:nth-child(3) {
     background-color: #ccb9da;
+    width: 33%;
 }
 
 
