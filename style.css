@@ -121,6 +121,7 @@ h1 {
     div.hide-small {
         display: none;
         margin-right: 50px;
+        font-size:20px;
         flex: none;
     }
     .column-layout {
@@ -176,6 +177,7 @@ h1 {
     margin: 40px 20px 40px 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    font-size:20px;
     flex-flow: row;
 }
 
