@@ -38,8 +38,15 @@ button {
     width: : 100%;
     font-size: 25px;
     background-color: lightgray;
-    border-radius: 3px;
+    border-radius: 5px;
     ;
+}
+
+button:hover {
+ width:110%;
+    font-size:28px;
+    background-color:#fff;
+    border-radius:5px;
 }
 
 @media screen and (max-width:767px) {
