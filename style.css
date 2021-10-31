@@ -1,0 +1,219 @@
+body {
+    font-family: "Montserrat-Bold";
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    font-size: 1rem;
+    font-family: "Montserrat-Bold";
+}
+
+.table {
+    padding: 30px auto 0 auto;
+}
+
+.container-fluid {
+    padding: 4% 10%;
+}
+
+
+/* navbar */
+
+.navbar {
+    padding: 9%;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-family: "Ubuntu";
+    font-weight: 200;
+    padding-left: 60px;
+}
+
+.nav-item {
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    font-family: "Montserrat-light";
+}
+
+
+/* second example */
+
+.side p {
+    background-image: linear-gradient(to right, #f8fbfc, #9ccde9);
+    padding: 3%;
+    border-radius: 5px;
+    color: rgb(61, 22, 22);
+    font-size: 1rem;
+}
+
+.highlight {
+    font-family: "ubuntu";
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: rgb(33, 33, 199);
+}
+
+.highlights {
+    font-family: "ubuntu";
+    font-weight: bolder;
+    font-size: 1.1rem;
+    color: rgb(22, 22, 170);
+}
+
+
+/* third example */
+
+.call-outs-container {
+    max-width: 1500px;
+    margin: 20px auto;
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row;
+}
+
+.call-out {
+    padding: 20px 20px;
+    margin: 30px 20px 40px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-flow: row;
+}
+
+.call-out:nth-child(1) {
+    background-color: #ecddec;
+    width: 33%
+}
+
+.call-out:nth-child(2) {
+    background-color: #babfe9;
+    width: 33%
+}
+
+.call-out:nth-child(3) {
+    background-color: #e3dbe9;
+    width: 33%;
+}
+
+
+/* fourth example */
+
+.fixed-size-container {
+    max-width: 1500px;
+    margin: 20px auto 0 auto;
+    background-color: #FFF;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fixed-size {
+    width: 175px;
+    height: 100px;
+    background-color: #406d83;
+    color: #FFF;
+    line-height: 100px;
+    text-align: center;
+    font-weight: 88%;
+    font-size: 1.2rem;
+    text-justify: inherit;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: rgb(48, 30, 30);
+    padding: 20px 20px;
+}
+
+
+/* Contacts page */
+
+.contacts {
+    padding: 20px 180px;
+    background-color: #c8d6d6;
+    font-size: 1.5rem;
+    font-family: "Montserrat-Bold";
+    color: rgb(83, 78, 78);
+}
+
+hr {
+    border-top-style: none;
+    border-bottom-style: dotted;
+    border-width: 1px;
+    border-color: rgb(253, 251, 251);
+    width: 40%;
+}
+
+.skills {
+    border-top-style: none;
+    border-bottom-style: dotted;
+    border-width: 3px;
+    border-color: rgb(177, 160, 160);
+    width: 30%;
+}
+
+.form {
+    background-color: #079191;
+    padding-left: 30px;
+    ;
+}
+
+.btn {
+    background: #4a6678;
+    background-image: -webkit-linear-gradient(top, #4a6678, #2b6487);
+    background-image: -moz-linear-gradient(top, #4a6678, #2b6487);
+    background-image: -ms-linear-gradient(top, #4a6678, #2b6487);
+    background-image: -o-linear-gradient(top, #4a6678, #2b6487);
+    background-image: linear-gradient(to bottom, #4a6678, #2b6487);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #0f8ad6;
+    background-image: -webkit-linear-gradient(top, #0f8ad6, #0769ab);
+    background-image: -moz-linear-gradient(top, #0f8ad6, #0769ab);
+    background-image: -ms-linear-gradient(top, #0f8ad6, #0769ab);
+    background-image: -o-linear-gradient(top, #0f8ad6, #0769ab);
+    background-image: linear-gradient(to bottom, #0f8ad6, #0769ab);
+    text-decoration: none;
+}
+
+.products {
+    position: absolute;
+    top: 200px;
+    right: 80px;
+    color: darkblue;
+    font-size: 1.5rem;
+    margin-right: 20px;
+    padding: 7px 20px;
+}
+
+products h2 p {
+    text-align: left;
+    text-decoration: italics;
+}
+
+.products:hover {
+    transform: scaleX(1.5);
+}
