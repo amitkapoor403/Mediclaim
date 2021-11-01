@@ -18,6 +18,7 @@ p {
 
 .container-fluid {
     padding: 7% 12%;
+    background-color: #ecf5f3;
 }
 
 
@@ -49,7 +50,7 @@ p {
 /* second example */
 
 .side p {
-    background-image: linear-gradient(to right, #f8fbfc, #9ccde9);
+    background-image: linear-gradient(to right,  #ecf5f3, #c2e2da);
     padding: 3%;
     border-radius: 5px;
     color: rgb(61, 22, 22);
