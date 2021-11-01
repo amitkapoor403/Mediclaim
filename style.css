@@ -3,13 +3,13 @@ body {
 }
 
 h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-family: "Montserrat-Bold";
 }
 
 p {
     font-size: 1rem;
-    font-family: "Montserrat-Bold";
+    font-family: "Montserrat";
 }
 
 .table {
@@ -59,7 +59,7 @@ p {
 .highlight {
     font-family: "ubuntu";
     font-weight: bolder;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: rgb(33, 33, 199);
 }
 
@@ -204,7 +204,7 @@ hr {
     position: absolute;
     top: 200px;
     right: 80px;
-    color: darkblue;
+    color: #4a6678;
     font-size: 1.5rem;
     margin-right: 20px;
     padding: 7px 20px;
