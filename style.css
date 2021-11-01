@@ -50,7 +50,7 @@ p {
 /* second example */
 
 .side p {
-    background-image: linear-gradient(to right,  #ecf5f3, #c2e2da);
+    background-image: linear-gradient(to right,  #fff, #c2e2da);
     padding: 3%;
     border-radius: 5px;
     color: rgb(61, 22, 22);
