@@ -52,7 +52,7 @@ p {
 .side p {
     background-image: linear-gradient(to right, #fff, #e3f4f5);
     padding: 3%;
-    border-radius: 5px;
+    border-radius: 8px;
     color: rgb(61, 22, 22);
     font-size: 1rem;
 }
