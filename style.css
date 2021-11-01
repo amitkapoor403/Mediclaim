@@ -90,17 +90,17 @@ p {
 }
 
 .call-out:nth-child(1) {
-    background-color: #ecddec;
+    background-image: linear-gradient(to right, #fff, #ecddec);
     width: 33%
 }
 
 .call-out:nth-child(2) {
-    background-color: #babfe9;
+    background-image: linear-gradient(to right, #fff, #babfe9);
     width: 33%
 }
 
 .call-out:nth-child(3) {
-    background-color: #e3dbe9;
+    background-image: linear-gradient(to right, #fff, #e3dbe9);
     width: 33%;
 }
 
@@ -121,7 +121,7 @@ p {
 .fixed-size {
     width: 175px;
     height: 100px;
-    background-color: #406d83;
+    background-color: #9ccfe9;
     color: #FFF;
     line-height: 100px;
     text-align: center;
