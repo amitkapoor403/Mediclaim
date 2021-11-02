@@ -192,8 +192,8 @@ hr {
 }
 
 .btn:hover {
-    background: #fff;
-    color:#0f8ad6;
+    background:#0f8ad6; ;
+    color:#fff
     background-image: -webkit-linear-gradient(top, #0f8ad6, #0769ab);
     background-image: -moz-linear-gradient(top, #0f8ad6, #0769ab);
     background-image: -ms-linear-gradient(top, #0f8ad6, #0769ab);
