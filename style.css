@@ -197,8 +197,8 @@ footer {
 .products {
     color: #4a6678;
     font-size: 1.5rem;
-    margin-right: 20px;
-    padding: 7px 20px;
+    margin-right: 40px;
+    padding: 7px 40px;
     flex: 2;
     order: 2;
 }
