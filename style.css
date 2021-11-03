@@ -146,77 +146,61 @@ footer {
 
 .contacts {
     padding: 20px 180px;
-    background-color: #c8d6d6;
     font-size: 1.5rem;
-    font-family: "Montserrat-Bold";
+    font-family: "Ubuntu";
     color: rgb(83, 78, 78);
+    display: flex;
+    flex-shrink: inherit;
 }
 
-hr {
-    border-top-style: none;
-    border-bottom-style: dotted;
-    border-width: 1px;
-    border-color: rgb(253, 251, 251);
-    width: 40%;
-}
-
-.skills {
-    border-top-style: none;
-    border-bottom-style: dotted;
-    border-width: 3px;
-    border-color: rgb(177, 160, 160);
-    width: 30%;
+.feedback {
+    flex: 2;
+    order: 2;
+    flex-direction: column-reverse;
 }
 
 .form {
     background-color: #079191;
     padding-left: 30px;
-    ;
+    margin-left: 40px;
+    padding: 10px 40px;
 }
 
 .btn {
-  background: #162c3b;
-  background-image: -webkit-linear-gradient(top, #162c3b, #49565e);
-  background-image: -moz-linear-gradient(top, #162c3b, #49565e);
-  background-image: -ms-linear-gradient(top, #162c3b, #49565e);
-  background-image: -o-linear-gradient(top, #162c3b, #49565e);
-  background-image: linear-gradient(to bottom, #162c3b, #49565e);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  text-shadow: 3px 2px 3px #666666;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+    background: #4a6678;
+    background-image: -webkit-linear-gradient(top, #4a6678, #2b6487);
+    background-image: -moz-linear-gradient(top, #4a6678, #2b6487);
+    background-image: -ms-linear-gradient(top, #4a6678, #2b6487);
+    background-image: -o-linear-gradient(top, #4a6678, #2b6487);
+    background-image: linear-gradient(to bottom, #4a6678, #2b6487);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
-  color: #ffffff;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+    background: #0f8ad6;
+    color: #fff;
+    background-image: -webkit-linear-gradient(top, #0f8ad6, #0769ab);
+    background-image: -moz-linear-gradient(top, #0f8ad6, #0769ab);
+    background-image: -ms-linear-gradient(top, #0f8ad6, #0769ab);
+    background-image: -o-linear-gradient(top, #0f8ad6, #0769ab);
+    background-image: linear-gradient(to bottom, #0f8ad6, #0769ab);
+    text-decoration: none;
 }
 
-
 .products {
-    position: absolute;
-    top: 200px;
-    right: 20px;
     color: #4a6678;
     font-size: 1.5rem;
     margin-right: 20px;
     padding: 7px 20px;
-}
-
-products h2 p {
-    text-align: left;
-    text-decoration: italics;
+    flex: 2;
+    order: 2;
 }
 
 .products:hover {
