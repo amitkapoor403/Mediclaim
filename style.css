@@ -154,6 +154,7 @@ footer {
 }
 
 .feedback {
+    padding: 10px 40px;
     flex: 2;
     order: 2;
     flex-direction: column-reverse;
