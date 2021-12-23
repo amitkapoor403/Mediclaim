@@ -35,6 +35,10 @@ p {
     padding-left: 60px;
 }
 
+#color {
+color:red;
+}
+
 .nav-item {
     padding-left: 22px;
     padding-right: 22px;
