@@ -35,7 +35,7 @@ p {
     padding-left: 60px;
 }
 
-#color {
+.color {
 color:red;
 }
 
@@ -75,10 +75,6 @@ color:red;
     color: rgb(22, 22, 170);
 }
 
-.color {
- color:red;
- font-weight:100;   
-}
 
 /* third example */
 
